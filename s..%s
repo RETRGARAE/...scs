@@ -77,23 +77,7 @@ local function MakeDraggable(topbarobject, object)
 		end
 	)
 end
-local function createHBPText()
-    local HBPText = Instance.new("TextLabel")
-    
-    HBPText.Name = "HBPText"
-    HBPText.Parent = Main
-    HBPText.BackgroundTransparency = 1
-    HBPText.BorderSizePixel = 0
-    HBPText.Position = UDim2.new(0, 10, 0, 10) -- Position in the top-left corner with a small offset
-    HBPText.Size = UDim2.new(0, 100, 0, 50) -- Adjust size as needed
-    HBPText.Font = Enum.Font.SourceSansBold
-    HBPText.Text = "HBP"
-    HBPText.TextColor3 = Color3.fromRGB(255, 255, 255) -- White text
-    HBPText.TextScaled = true -- Scales the text to fit the label size
-end
 
--- Call the function after creating the main frame
-createHBPText()
 
 
 local create = {}
